@@ -1,0 +1,324 @@
+.investore {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.investore-inner {
+    width: 80%;
+    padding: 30px;
+    background-color: #8bd66c;
+    border-radius: 20px;
+}
+
+.investore .investore-left img {
+    width: 200px;
+    margin-right: 20px
+}
+
+.investore .investore-left h1 {
+    font-size: 60px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.investor-middle {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.investor-middle h2 {
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.investor-right {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.investor-right h2 {
+    color: white;
+    width: 350px;
+    margin-bottom: 30px;
+}
+
+.investor-right a {
+    width: 300px;
+    height: 50px;
+    background: #449552;
+    border: 0px;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.investor-right a:hover {
+    color: #449552;
+    background: transparent;
+    border: solid 3px #449552;
+    transition: .3s;
+}
+
+.investor-right a .arrow-right {
+    margin-left: 10px;
+}
+
+.investor-tree {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: -25px;
+}
+
+.investor-tree img {
+    width: 150px;
+}
+
+.investor-middle .first {
+    width: 200px;
+}
+
+.investor-middle .second {
+    width: 300px;
+}
+
+.investor-middle .third {
+    width: 100px;
+}
+
+.investor-middle h2 {
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 1500px) {
+    .investore .investore-left img {
+        width: 150px;
+    }
+
+    .investore .investore-left h1 {
+        font-size: 50px;
+    }
+
+    .investor-middle h2 {
+        font-size: 20px;
+    }
+
+    .investor-middle .second {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+
+    .investor-right h2 {
+        font-size: 25px;
+    }
+
+    .investore-inner {
+        padding-right: 0px;
+    }
+
+    .investor-tree img {
+        width: 100px;
+    }
+
+    .investor-right a {
+        width: 250px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .investore .investore-left img {
+        width: 130px;
+    }
+
+    .investore .investore-left h1 {
+        font-size: 40px;
+    }
+
+    .investor-middle h2 {
+        font-size: 18px;
+    }
+
+    .investor-middle .second {
+        width: 150px;
+    }
+
+    .investor-middle .first {
+        width: 150px;
+    }
+
+    .investor-right h2 {
+        font-size: 20px;
+        width: 250px;
+    }
+
+    .investor-right a {
+        width: 200px;
+        font-size: 18px;
+    }
+
+    .investor-tree img {
+        width: 70px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .investore .investore-left img {
+        width: 110px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .investore-inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .investore-inner .col-5 {
+        width: 100% !important;
+    }
+
+    .investore-inner .col-7 {
+        width: 100% !important;
+        justify-content: center;
+    }
+
+    .investor-right {
+        align-items: center;
+        width: 50% !important;
+    }
+
+    .investor-tree {
+        width: 50% !important;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .investore-left,
+    .investor-middle {
+        width: auto !important;
+    }
+
+    .investor-tree img {
+        margin-left: -50px;
+    }
+
+    .investor-right h2 {
+        font-size: 25px;
+        width: 250px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .investore .investore-left img {
+        width: 130px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .investor-right h2 {
+        font-size: 20px;
+        width: 200px px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+
+    .investor-right h2 {
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .investore .investore-left img {
+        width: 100px;
+        height: 80px;
+    }
+
+    .investore .investore-left h1 {
+        font-size: 30px;
+    }
+
+    .investore-inner {
+        padding: 10px;
+    }
+
+    .investor-middle h2 {
+        font-size: 15px;
+    }
+
+    .investor-right h2 {
+        font-size: 20px;
+        margin-left: 30px;
+    }
+
+    .investore-inner {
+        width: 90%;
+    }
+
+    .investor-tree img {
+        margin-bottom: 20px;
+    }
+
+    .investor-right a {
+        width: 150px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+
+    .investor-middle .second,
+    .investor-middle .first {
+        width: 100px;
+    }
+
+    .investor-right h2 {
+        width: 200px;
+        font-size: 17px;
+    }
+
+    .investor-right a {
+        width: 130px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .investore .investore-left img {
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width: 250px) {
+    .investor-middle h2 {
+        margin-left: 10px;
+    }
+
+    .investore .investore-left h1 {
+        font-size: 25px;
+    }
+
+    .investor-right a {
+        width: 110px;
+        font-size: 12px;
+    }
+
+    .investor-right h2 {
+        width: 200px;
+    }
+}

@@ -1,0 +1,253 @@
+.check-mining {
+    background-image: url("/public/image/2.png");
+    margin-top: -3px;
+    height: 120vh;
+    background-size: 100% 100%;
+}
+
+.check-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.check-area-inner {
+    display: flex;
+    margin-bottom: 25vh;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.check-area p {
+    margin: 0px;
+    color: #bac68e;
+    font-size: 40px;
+    width: 300px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.check-area p label {
+    font-weight: 600;
+    -webkit-text-stroke: 1px;
+}
+
+.check-area button {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: #449552;
+    border: 0px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.check-area button .vertical-icon {
+    font-size: 40px;
+    color: white;
+    margin-left: 5px;
+}
+
+.gold-coin {
+    width: 140px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 5000px) {
+    .gold-coin {
+        margin-left: 30%;
+    }
+}
+
+@media only screen and (max-width: 4000px) {
+    .gold-coin {
+        margin-left: 25%;
+    }
+}
+
+@media only screen and (max-width: 3000px) {
+    .gold-coin {
+        margin-left: 22%;
+    }
+}
+
+@media only screen and (max-width: 2000px) {
+    .gold-coin {
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .gold-coin {
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .check-area-inner {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .check-area-inner {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 1140px) {
+    .check-area p {
+        width: 250px;
+        font-size: 25px;
+    }
+
+    .check-area button {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .check-area p {
+        width: 250px;
+        font-size: 25px;
+    }
+
+    .check-area button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .check-area-inner {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .check-area p {
+        margin-bottom: 20vh;
+        width: 100%;
+        font-size: 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 80px;
+
+    }
+
+    .check-mining {
+        height: 80vh;
+        background-size: 120% 100%;
+        background-position-x: right;
+    }
+
+    .check-area-inner {
+        align-items: flex-end;
+    }
+
+    .check-area button {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        margin-left: 80px;
+    }
+
+    .check-area-inner {
+        margin-bottom: 16vh;
+    }
+
+    .gold-coin {
+        position: absolute;
+        width: 120px;
+        margin-left: 190px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .check-area button {
+        margin-left: 50px;
+    }
+
+    .check-area p {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .gold-coin {
+        position: absolute;
+        width: 100px;
+        margin-left: 150px;
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .check-area button,
+    .check-area p {
+        margin-left: 50px;
+    }
+
+    .gold-coin {
+        margin-left: 190px;
+    }
+
+    .check-area button {
+        margin-left: 50px;
+    }
+
+    .check-mining {
+        background-size: 130% 100%;
+        background-position-x: center;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+
+    .check-area button,
+    .check-area p {
+        margin-left: 30px;
+    }
+
+    .gold-coin {
+        margin-left: 150px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .check-mining {
+        height: 60vh;
+    }
+
+    .check-area p {
+        margin-bottom: 15vh;
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .check-area button,
+    .check-area p {
+        margin-left: 5px;
+    }
+
+    .check-area-inner {
+        margin-bottom: 12vh;
+    }
+
+    .gold-coin {
+        width: 80px;
+        margin-left: 110px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .gold-coin {
+        margin-left: 90px;
+    }
+}

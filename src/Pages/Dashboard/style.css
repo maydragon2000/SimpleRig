@@ -1,0 +1,274 @@
+.dashbord-content {
+    padding: 40px;
+    padding-left: 0px;
+    width: 100%;
+}
+
+.dashbord-content .top {
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+}
+
+.dashbord-content .top a {
+    width: 200px;
+    height: 40px;
+    margin-right: 30px;
+    background-color: #49925B;
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.dashbord-content .top a:hover {
+    transition: .5s;
+    background-color: transparent;
+    color: #49925B;
+    border: solid 3px #49925B;
+}
+
+.dashbord-content .top a .arrow-right {
+    margin-left: 10px;
+
+}
+
+.dashbord-content .welcome h2 {
+    font-weight: 700;
+    -webkit-text-stroke: 1.5px;
+}
+
+.main-inner {
+    margin-right: 0px !important;
+}
+
+.main h3 {
+    color: #49925B;
+    font-weight: 700;
+}
+
+.main .plan-list {
+    padding-top: 40px;
+}
+
+.btn-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.btn-wrap .link-wrap {
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border: 0px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.btn-wrap .link-wrap a {
+    color: black !important;
+    text-decoration: none;
+}
+
+.btn-wrap .link-wrap:hover {
+    background-color: #49925B;
+    transition: .5s;
+}
+
+.btn-wrap .link-wrap:hover a {
+    color: white !important;
+}
+
+.payout ul {
+    color: #49925B;
+}
+
+.payout h4 {
+    font-weight: 700;
+    margin-bottom: 0px;
+    color: black;
+}
+
+.payout p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 1px;
+    color: #7F7F7F;
+}
+
+.revenue {
+    margin-top: 50px;
+}
+
+.revenue table {
+    width: 95%;
+    display: block;
+    overflow-x: auto;
+}
+
+.revenue table thead {
+    border-bottom: solid 2px #D8D8D8;
+    width: 700px;
+    display: block;
+}
+
+.revenue table thead tr {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: .5px;
+    -webkit-text-stroke: 0.5px;
+    display: table;
+    width: 100%;
+}
+
+.revenue table thead tr th {
+    width: 20%
+}
+
+.revenue table tbody {
+    display: block;
+    height: 90px;
+    overflow-y: scroll;
+    width: 700px;
+}
+
+.revenue table tbody tr {
+    border-bottom: solid 1px #D8D8D8;
+    font-size: 18px;
+    color: #7F7F7F;
+    display: table;
+    width: 100%;
+}
+
+.revenue table tbody tr td {
+    width: 20%;
+}
+
+.revenue table tr .first-field {
+    font-weight: 700;
+    -webkit-text-stroke: 0.1px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .dashbord-content {
+        padding-right: 0px;
+        padding-left: 50px;
+    }
+
+    .plan-wrap {
+        width: 50% !important;
+    }
+
+    .payout {
+        width: 50% !important;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .revenue table thead tr {
+        font-size: 17px;
+    }
+
+    .revenue table tbody tr td {
+        font-size: 17px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .main-inner {
+        flex-direction: column;
+    }
+
+    .plan-wrap {
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+
+    .payout {
+        width: 100% !important;
+    }
+
+    .dashbord-content {
+        padding-left: 100px;
+    }
+
+    .dashbord-content .top a {
+        font-size: medium;
+        width: 150px;
+        letter-spacing: 1px;
+    }
+
+    .dashbord-content .top {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 620px) {
+    .dashbord-content {
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .dashbord-content {
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .dashbord-content {
+        padding-left: 10px;
+    }
+
+
+}
+
+@media only screen and (max-width: 350px) {
+    .dashbord-content {
+        padding-left: 10px;
+    }
+
+    .payout h4 {
+        font-size: 17px
+    }
+
+    .payout p {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .plan-wrap {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .dashbord-content {
+        padding-left: 0px;
+    }
+
+    .dashbord-content .top a {
+        margin-right: 0px;
+    }
+
+    .main-inner {
+        margin-left: 0px !important;
+    }
+}

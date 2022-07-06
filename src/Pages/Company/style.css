@@ -1,0 +1,284 @@
+.company {
+    background-color: white;
+}
+
+.company-header {
+    background-image: url("/public/image/company-header.png");
+    background-size: 100% 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 55px 30px;
+}
+
+.company-header-top {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.company .login-button {
+    margin-right: 100px;
+    margin-top: -5px;
+    border: solid 3px #429763;
+    color: #429763;
+    font-size: 25px;
+    font-weight: 900;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.company .login-button:hover {
+    background-color: #429763;
+    color: white;
+    transition: .3s;
+}
+
+.company .login-button .arrow-right {
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.company-header h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+    margin-top: 70px;
+    -webkit-text-stroke: 2px;
+    color: #1E3B39;
+}
+
+.company-content {
+    width: 100%;
+    display: flex;
+    padding-top: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.company-contact {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.company-content .company-contact .left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 150px;
+}
+
+.company-content .company-contact .left .company-text {
+    color: #449552;
+    font-weight: 800;
+}
+
+.company-content .company-contact .left .contacts-text {
+    font-weight: 800;
+    -webkit-text-stroke: 2px;
+}
+
+.company-content .company-contact .right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.company-content .company-contact .right p {
+    font-size: 23px;
+    width: 80%;
+    color: #7F7F7F;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.company-information {
+    display: flex;
+    width: 80%;
+    border-top: solid 2px #D8D8D8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.company-information .left {
+    width: 37%;
+    padding-right: 150px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.company-information .left h2 {
+    color: #449552;
+    font-weight: 800;
+    -webkit-text-stroke: 1px;
+}
+
+.company-information .right {
+    width: 60%;
+    padding-left: 5px;
+}
+
+.company-information .right .information-text {
+    color: #449552;
+    font-weight: 800;
+    -webkit-text-stroke: 1px;
+    margin-bottom: 20px;
+}
+
+.company-information .right h2 {
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.company-information .right h4 {
+    color: #7F7F7F;
+    letter-spacing: 2px;
+    font-weight: 700;
+    width: 700px;
+}
+
+@media only screen and (max-width: 1250px) {
+    .company-content .company-contact .left {
+        padding-right: 100px;
+    }
+
+    .company-information .left {
+        padding-right: 100px;
+    }
+
+    .company-content .company-contact .left .company-text {
+        font-size: 30px;
+    }
+
+    .company-content .company-contact .left .contacts-text {
+        font-size: 30px;
+    }
+
+    .company-information .left h2 {
+        font-size: 28px;
+    }
+
+    .company-content .company-contact .right p {
+        font-size: 20px;
+    }
+
+    .company-information .right .information-text {
+        font-size: 28px;
+    }
+
+    .company-information .right h2 {
+        font-size: 28px;
+    }
+
+    .company-information .right h4 {
+        font-size: 20px;
+    }
+
+    .company-information .right h4 {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .company-content .company-contact .right p {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .company-header {
+        height: 300px;
+    }
+
+    .company-header h1 {
+        margin-top: 50px;
+    }
+
+    .company-header h1 {
+        font-size: 40px;
+    }
+
+    .company-content .company-contact .left {
+        padding-right: 50px;
+    }
+
+    .company-information .left {
+        padding-right: 50px;
+    }
+
+    .company-content .company-contact .left .company-text {
+        font-size: 28px;
+    }
+
+    .company-content .company-contact .right p {
+        font-size: 18px;
+    }
+
+    .company-information .left h2,
+    .company-information .right .information-text,
+    .company-information .right h2 {
+        font-size: 24px;
+    }
+
+    .company-information .right h4 {
+        width: 300px;
+    }
+
+    .company-information .right h4 {
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (max-width:650px) {
+
+    .company-contact,
+    .company-information {
+        flex-direction: column;
+    }
+
+    .company-content .company-contact .left,
+    .company-information .left {
+        width: 100%;
+        padding-right: 0px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+
+    .company-content .company-contact .left .contacts-text {
+        margin-left: 10px;
+    }
+
+    .company-content .company-contact .right,
+    .company-information .right {
+        width: 100%;
+        align-items: center;
+    }
+
+    .company-information .right h4 {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .company-content .company-contact .right p {
+        font-size: 16px;
+    }
+
+    .company-information .right h4 {
+        font-size: 16px;
+    }
+}

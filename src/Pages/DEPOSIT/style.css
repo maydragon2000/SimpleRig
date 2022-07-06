@@ -1,0 +1,463 @@
+.Deposit {
+    padding-top: 40px;
+    padding-left: 0px;
+}
+
+.Deposit .top {
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+}
+
+.Deposit .top a {
+    width: 200px;
+    height: 40px;
+    margin-right: 30px;
+    background-color: #49925B;
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.Deposit .top a:hover {
+    background-color: transparent;
+    color: #49925B;
+    border: solid 3px #49925B;
+    transition: .5s;
+}
+
+.Deposit .title h2 {
+    font-weight: 700;
+    -webkit-text-stroke: 1.5px;
+}
+
+.buy-plan {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.buy-plan-inner {
+    background-color: #cceec6;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 0px !important;
+    width: 90%;
+}
+
+.buy-plan-inner .left h2 {
+    color: #449552;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.buy-plan-inner .left h3 {
+    color: #595a5b;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.buy-plan-inner .input-wrap {
+    width: 400px;
+    height: 70px;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #f1f2d7;
+}
+
+.buy-plan-inner .input-wrap input {
+    border: 0px;
+    width: 80%;
+    background-color: #f1f2d7;
+    font-size: 25px;
+    font-family: montserrat;
+}
+
+.buy-plan-inner .input-wrap input:focus-visible {
+    outline: none;
+}
+
+.buy-plan .right-inner {
+    background-color: rgb(182, 228, 159);
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.wallet-address h2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.wallet-address h2 svg {
+    cursor: pointer;
+    margin-left: 20px;
+
+}
+
+.buy-plan .right-inner h3 {
+    font-size: 23px;
+    font-weight: 700;
+    color: #595a5b;
+}
+
+.buy-plan .right-inner ul {
+    color: #595a5b;
+}
+
+.buy-plan .right-inner ul h3 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: montserrat;
+    margin-bottom: 0px;
+}
+
+.buy-plan .right-inner ul h1 {
+    color: #36352c;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.buy-plan .right-inner .calculator {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.green-tractor-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 150px;
+    align-items: flex-end;
+}
+
+.green-tractor {
+    width: 200px;
+}
+
+.horizontal-slider {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+.example-thumb {
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+    background: #ffffff;
+    border: 5px solid #3774ff;
+    border-radius: 100%;
+    display: block;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 44%);
+}
+
+.example-thumb.active {
+    background-color: grey;
+}
+
+.example-track {
+    position: relative;
+    background: #ddd;
+    border-radius: 10px;
+}
+
+.example-track.example-track-0 {
+    background: #6abe66;
+    border-radius: 10px;
+}
+
+.horizontal-slider .example-track {
+    top: 20px;
+    height: 20px;
+}
+
+.horizontal-slider .example-thumb {
+    top: 12px;
+    width: 10px;
+    outline: none;
+    height: 10px;
+    line-height: 38px;
+}
+
+.deposit-button-wrap {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.deposit-button-wrap .link-wrap {
+    width: 250px;
+    height: 60px;
+    background-color: #6abe66;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.deposit-button-wrap .link-wrap a {
+    text-decoration: none !important;
+    font-size: 18px;
+    color: white !important;
+    font-weight: 900;
+
+}
+
+.deposit-button-wrap .link-wrap a img {
+    margin-right: 10px;
+}
+
+.deposit-button-wrap .link-wrap a .arrow-right {
+    margin-left: 10px;
+}
+
+.deposit-button-wrap .link-wrap:hover {
+    background-color: transparent;
+    border: solid 3px #6abe66;
+    transition: .5s;
+}
+
+.deposit-button-wrap .link-wrap:hover a {
+    color: #6abe66 !important;
+}
+
+
+.rangeslider-wrap {
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.MuiSlider-root {
+    color: #6abe66 !important;
+    height: 20px !important;
+}
+
+.MuiSlider-valueLabel {
+    width: 100px !important;
+    height: 40px !important;
+    background-color: white !important;
+    color: #595a5b !important;
+}
+
+.buy-plan-inner .input-wrap {
+    width: 90%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .buy-plan-inner {
+        width: 100%;
+    }
+
+    .Deposit {
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .Deposit {
+        padding-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .buy-plan-inner {
+        flex-direction: column;
+    }
+
+    .buy-plan-inner .left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .buy-plan-inner .right {
+        width: 100%;
+    }
+
+    .buy-plan-inner .rangeslider-wrap {
+        height: 70px;
+    }
+
+    .Deposit {
+        padding-left: 70px;
+    }
+
+    .Deposit .top a {
+        font-size: medium;
+        width: 150px;
+        letter-spacing: 1px;
+    }
+
+    .Deposit .top {
+        margin-bottom: 10px;
+    }
+
+    .deposit-button-wrap .link-wrap {
+        width: 200px;
+        height: 50px;
+    }
+
+    .deposit-button-wrap .link-wrap a {
+        font-size: 16px;
+    }
+
+    .deposit-button-wrap .link-wrap a img {
+        width: 35px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .Deposit {
+        padding-left: 90px;
+    }
+
+    .deposit-button-wrap .link-wrap {
+        width: 150px;
+        height: 50px;
+    }
+
+    .deposit-button-wrap .link-wrap a {
+        font-size: 14px;
+    }
+
+    .deposit-button-wrap .link-wrap a img {
+        width: 25px;
+    }
+
+    .deposit-button-wrap .link-wrap a .arrow-right {
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .Deposit {
+        padding-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .Deposit {
+        padding-left: 10px;
+    }
+
+    .deposit-button-wrap .link-wrap {
+        width: 200px;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Deposit .deposit-button-wrap {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .buy-plan-inner .left h2 {
+        font-size: 22px;
+    }
+
+    .buy-plan-inner .input-wrap {
+        height: 50px;
+    }
+
+    .buy-plan-inner .input-wrap input {
+        font-size: 20px;
+    }
+
+    .buy-plan .right-inner h3 {
+        font-size: 20px;
+    }
+
+    .buy-plan .right-inner .sub-title {
+        font-size: 23px;
+    }
+
+    .buy-plan .right-inner ul h1 {
+        font-size: 30px;
+    }
+
+    .green-tractor {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .Deposit .deposit-button-wrap {
+        flex-direction: column;
+    }
+
+    .deposit-button-wrap .link-wrap {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .deposit-button-wrap .link-wrap a {
+        font-size: 20px;
+    }
+
+    .deposit-button-wrap .link-wrap a img {
+        width: 35px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .wallet-address .address-text {
+        font-size: 20px;
+    }
+
+
+    .buy-plan .right-inner h3 {
+        font-size: 18px;
+    }
+
+    .buy-plan .right-inner .sub-title {
+        font-size: 21px;
+    }
+
+    .buy-plan .right-inner {
+        padding-left: 10px;
+    }
+
+    .buy-plan-inner .right {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .wallet-address .address-text {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .green-tractor {
+        width: 100px;
+    }
+
+    .deposit-button-wrap .link-wrap a {
+        font-size: 16px;
+    }
+
+    .deposit-button-wrap .link-wrap a img {
+        width: 25px;
+    }
+}

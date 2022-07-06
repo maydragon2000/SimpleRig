@@ -1,0 +1,95 @@
+.layout {
+    display: flex;
+    background: linear-gradient(180deg, #7DF2FD 1.68%, #FFFFFF 48.32%, #FED480 100%);
+    min-height: 720px;
+    margin-right: 0px !important;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.subpage-sidebar-button-wrap .sidemenu-button {
+    margin-top: 45px;
+}
+
+.layout-left {
+    z-index: 100;
+    opacity: 1 !important;
+    position: relative;
+}
+
+.layout-right {
+    z-index: 90;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.nav-side-wrap {
+    opacity: 1 !important;
+}
+
+.subpage-sidebar-button-wrap {
+    position: absolute;
+    z-index: 100;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .sidenav---sidenav---_2tBP {
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .sidenav---sidenav---_2tBP {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .layout-left .sidenav---sidenav---_2tBP {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+
+    .layout-left {
+        width: 10%;
+    }
+
+    .layout-right {
+        width: 90%;
+    }
+
+
+    .layout-left .navbar {
+        z-index: 10;
+    }
+
+    .main-inner {
+        flex-direction: column;
+    }
+
+    .plan-wrap {
+        width: 100% !important;
+    }
+
+    .payout {
+        width: 100% !important;
+    }
+
+    .layout-left .nav-side-wrap {
+        height: 100%;
+    }
+
+
+
+    .navbar {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .layout-right {
+        padding-left: 0px !important;
+    }
+}

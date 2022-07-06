@@ -1,0 +1,300 @@
+.Register img {
+    height: 100vh;
+    position: absolute;
+}
+
+.Register .img-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Register {
+    background-image: url(/public/2.gif);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Register {
+    height: 100vh;
+    background-color: #fcfdfc;
+    z-index: -100;
+    max-height: 750px;
+}
+
+.Register-inner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.Register-inner .content-wrap {
+    width: 500px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    z-index: 1;
+}
+
+.Register-inner h2 {
+    font-weight: 900;
+    color: #36352c;
+    -webkit-text-stroke: 1px;
+}
+
+.Register-inner h1 {
+    display: flex;
+    font-weight: 700;
+    color: #449552;
+    -webkit-text-stroke: 2px;
+    margin-bottom: 80px;
+}
+
+.Register-inner h1 p label {
+    margin-left: 10px;
+}
+
+.Register-inner h1 p {
+    display: flex;
+    margin-left: 10px;
+    color: #36352c;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.Register-inner h1 p label {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+    font-weight: 100;
+
+}
+
+.Register-inner p {
+    color: black;
+    width: 400px;
+    font-weight: 500;
+    font-family: montserrat;
+}
+
+.Register-inner a {
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    border: solid 3px #449552;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #449552;
+    font-size: 25px;
+    font-weight: 900;
+    -webkit-text-stroke: 0.3px;
+    text-decoration: none;
+}
+
+.Register-inner a:hover {
+    background-color: #449552;
+    color: white;
+    transition: .3s;
+}
+
+.Register-inner a .arrow-right {
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .Register-inner .content-wrap {
+        width: 400px;
+        margin-right: 20px;
+    }
+
+    .Register-inner h2 {
+        font-size: 25px;
+    }
+
+    .Register-inner h1 {
+        font-size: 30px;
+    }
+
+    .Register-inner h1 p {
+        font-size: 30px;
+    }
+
+    .Register-inner p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .Register-inner p {
+        font-size: 13px;
+        width: 300px;
+    }
+
+    .Register-inner .content-wrap {
+        width: 300px;
+        margin-right: 10px;
+    }
+
+    .Register-inner h2 {
+        font-size: 20px;
+    }
+
+    .Register-inner h1 {
+        font-size: 25px;
+    }
+
+    .Register-inner h1 p {
+        font-size: 25px;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 780px) {
+    .Register-inner {
+        justify-content: center;
+    }
+
+    .Register-inner h2 {
+        font-size: 30px;
+    }
+
+    .Register-inner h1 {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+    .Register-inner h1 p {
+        font-size: 40px;
+    }
+
+    .Register {
+        background-size: 700px;
+        background-position-y: inherit;
+    }
+
+    .Register-inner .content-wrap {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .Register-inner h2 {
+        text-align: center;
+    }
+
+    .Register-inner p {
+        margin-bottom: 5px;
+        width: 500px;
+        text-align: center;
+    }
+
+    .Register-inner h1 p {
+        width: fit-content;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .Register-inner .content-wrap {
+        width: 300px;
+
+    }
+
+    .Register-inner button {
+        width: 150px;
+        height: 35px;
+        border-width: 3px;
+        font-size: 17px;
+    }
+
+    .Register-inner p {
+        width: 300px;
+    }
+
+    .Register {
+        background-size: 500px;
+        height: 600px;
+    }
+
+    .Register-inner h2 {
+        font-size: 25px;
+    }
+
+    .Register-inner h1 {
+        font-size: 35px;
+    }
+
+    .Register-inner h1 p {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .Register {
+        background-size: 350px;
+        height: 500px;
+    }
+
+    .Register-inner h2 {
+        font-size: 20px;
+    }
+
+    .Register-inner h1 {
+        font-size: 30px;
+    }
+
+    .Register-inner h1 p {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    .Register-inner .content-wrap {
+        width: 200px;
+        margin-bottom: 30px;
+    }
+
+    .Register-inner h2 {
+        font-size: 15px;
+    }
+
+    .Register-inner h1 {
+        font-size: 22px;
+    }
+
+    .Register-inner button {
+        width: 150px;
+        height: 35px;
+        border-width: 3px;
+        font-size: 17px;
+    }
+
+    .Register-inner h1 p {
+        font-size: 20px;
+    }
+
+    .Register-inner p {
+        width: 200px;
+    }
+
+    .Register img {
+        width: 350px;
+        height: 350px;
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .Register {
+        background-size: 300px;
+        height: 470px;
+    }
+}

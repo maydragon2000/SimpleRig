@@ -1,0 +1,179 @@
+.profitable-top {
+    width: 100%;
+}
+
+.profitable-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profitable-header .takeaction {
+    margin: 0px;
+    font-size: 30px;
+    color: #449552;
+    font-weight: 700;
+}
+
+.profitable-header .title {
+    margin: 0px;
+    width: 600px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    -webkit-text-stroke: 2px;
+    margin-bottom: 50px;
+}
+
+.profitable-header .title label {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1.5px;
+    font-weight: 100;
+}
+
+.profitable-header .description {
+    font-size: 17px;
+    width: 700px;
+    text-align: center;
+    font-weight: 400;
+    font-family: montserrat;
+    -webkit-text-stroke: 1px;
+}
+
+.tractor-list p {
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: montserrat;
+}
+
+.tractor-list .percent {
+    border-bottom: solid 4px #429763;
+    border-bottom-width: 50%;
+}
+
+.tractor-list .learnmore {
+    width: 60%;
+    height: 50px;
+    color: rgb(68, 149, 82);
+    background: transparent;
+    border: solid 3px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.tractor-list .learnmore:hover {
+    background-color: rgb(68, 149, 82);
+    color: white;
+    transition: .3s;
+    border: solid 3px #449953;
+}
+
+.tractor-list .learnmore .arrow-icon {
+    margin-left: 20px;
+}
+
+.tractor-detail {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.singleTractor {
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.singleTractor:hover .tractor-detail {
+    border: solid 2px #449552;
+    border-top: 0px;
+}
+
+.singleTractor img {
+    width: 100%;
+}
+
+.react-multiple-carousel__arrow {
+    display: none;
+}
+
+.react-multi-carousel-item {
+    opacity: .5;
+}
+
+.react-multi-carousel-item--active {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 800px) {
+    .profitable-header .title {
+        font-size: 40px;
+        width: 400px;
+    }
+
+    .profitable-header .description {
+        font-size: 17px;
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .profitable-header .description {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .profitable-header .description {
+        width: 300px;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .profitable-header .title {
+        width: 300px;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+
+    .tractor-list button {
+        width: 200px;
+        height: 50px;
+        border: solid 3px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .profitable-header .description {
+        width: 250px;
+    }
+
+    .profitable-header .title {
+        width: 250px;
+        font-size: 23px;
+    }
+
+
+    .tractor-list button {
+        width: 200px;
+        height: 50px;
+    }
+
+    .tractor-list .percent {
+        font-size: 16px !important;
+    }
+}

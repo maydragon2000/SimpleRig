@@ -1,0 +1,253 @@
+.login .modal-dialog {
+    max-width: 800px;
+    font-family: rajdhani;
+    margin-top: 50px;
+}
+
+
+
+.login .modal-body {
+    padding: 0px;
+}
+
+.login .modal-content {
+    border-radius: 8px;
+}
+
+.login .modal-header {
+    border-bottom: 0px;
+}
+
+.login-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.login-header h1 {
+    display: flex;
+    font-size: 45px;
+    font-weight: 700;
+    -webkit-text-stroke: 1px;
+    color: #449552;
+}
+
+.login-header h4 {
+    font-weight: 700;
+}
+
+.login-header h1 p {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+    font-weight: 100;
+}
+
+.login-content {
+    display: flex;
+    border: solid 1px #449552;
+    border-radius: 8px;
+
+}
+
+.login-content-left img {
+    width: 250px;
+    height: 470px;
+    border-radius: 8px
+}
+
+.login-content-right {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.login-content-right .react-tabs__tab-list {
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 0px;
+    color: #7f7f7f;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.react-tabs__tab-list p {
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.react-tabs__tab {
+    width: 50%;
+}
+
+
+.react-tabs__tab--selected {
+    border: 0px;
+    border-radius: 0px;
+    color: #449552;
+}
+
+.register-content p {
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.register-content .name-wrap,
+.register-content .surname-wrap {
+    height: 40px;
+    border: solid 2px #449552;
+    border-radius: 5px;
+    width: 90%;
+    padding: 4px 10px;
+    margin-bottom: 15px;
+}
+
+.register-content .name-wrap input,
+.register-content .surname-wrap input,
+.register-content .Email-wrap input {
+    width: 100%;
+    border: 0px;
+
+}
+
+.register-content .name-wrap input:focus-visible,
+.register-content .surname-wrap input:focus-visible,
+.register-content .Email-wrap input:focus-visible {
+    outline: none;
+}
+
+.register-content .Email-wrap {
+    height: 40px;
+    border: solid 2px #449552;
+    border-radius: 5px;
+    width: 95%;
+    padding: 4px 10px;
+    margin-bottom: 15px;
+}
+
+.register-content .Dropdown-control {
+    width: 70px;
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+    height: 30px;
+    padding-top: 4px;
+}
+
+.register-content .Dropdown-menu {
+    width: 70px;
+}
+
+.register-button-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.register-button-wrap .register-button {
+    height: 40px;
+    width: 200px;
+    border: solid 2px #449552;
+    color: #449552;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.register-button-wrap .register-button .arrow-right {
+    margin-left: 10px;
+}
+
+.register-button-wrap .register-button:hover {
+    background-color: #449552;
+    color: white;
+}
+
+.forgot-password {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.react-tel-input .form-control {
+    border: solid 2px #449552 !important;
+    width: 95% !important;
+    height: 40px !important;
+}
+
+.react-tel-input .form-control:focus {
+    box-shadow: none !important;
+}
+
+.react-tel-input .flag-dropdown {
+    border: solid 2px #449552 !important;
+    border-right: 0px !important;
+}
+
+@media only screen and (max-width:820px) {
+    .login-inner {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:620px) {
+    .login-content-left img {
+        width: 200px;
+    }
+
+    .login-inner {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .register-content .first {
+        flex-direction: column;
+    }
+
+    .register-content .first .col-6 {
+        width: 100%;
+    }
+
+    .login-content-left img {
+        height: 460px;
+    }
+
+    .register-button-wrap .register-button {
+        width: 120px;
+        font-size: 16px;
+    }
+
+    .register-content .name-wrap,
+    .register-content .surname-wrap {
+        width: 100%;
+    }
+
+    .login-content-right .react-tabs__tab-list {
+        font-size: 20px;
+    }
+
+    .register-content .Email-wrap {
+        width: 100%;
+    }
+
+    .react-tel-input .form-control {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .login-content-left img {
+        display: none;
+    }
+
+    .login-header h4 {
+        font-size: 16px;
+    }
+}

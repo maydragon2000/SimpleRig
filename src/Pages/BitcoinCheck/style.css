@@ -1,0 +1,286 @@
+.bitcoin-Check {
+    height: 100vh;
+    min-height: 700px;
+    background-image: url(/public/image/check-bottom.png);
+    background-size: 100% 100%;
+    padding-top: 50px;
+}
+
+.bitcoin-Check h1 {
+    color: #449552;
+    text-align: center;
+    font-weight: 700;
+    -webkit-text-stroke: 1.5px;
+    letter-spacing: 2px;
+}
+
+.bitcoin-Check-inner {
+    margin-top: 40px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+
+}
+
+.bitcoin-Check-inner .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 100px;
+}
+
+.bitcoin-Check-inner .left img {
+    height: 250px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.bitcoin-Check-inner .need-help-wrap {
+    width: 230px;
+    background: #d2eab5;
+    border-radius: 5px;
+    padding: 10px 20px 0px 10px;
+}
+
+.bitcoin-Check-inner .left h4 {
+    font-weight: 700;
+    color: #449552;
+}
+
+.bitcoin-Check-inner .left h4 svg {
+    margin-right: 5px;
+}
+
+.bitcoin-Check-inner .left p {
+    margin-left: 20px;
+    color: #7F7F7F;
+    font-weight: 700;
+    -webkit-text-stroke: 0.4px;
+}
+
+.bitcoin-Check-inner .right h5 {
+    margin-bottom: 0px;
+    font-weight: 700;
+    -webkit-text-stroke: 0.5px;
+}
+
+.bitcoin-Check-inner .right p {
+    margin-bottom: 0px;
+    color: #7F7F7F;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.bitcoin-Check-sub-title {
+    color: #449552;
+}
+
+.bitcoin-Check-inner .right p svg {
+    margin-left: 10px;
+}
+
+.bitcoin-Check-inner .right button {
+    width: 200px;
+    height: 50px;
+    background: #6ABE66;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.bitcoin-Check-inner .right button:hover {
+    background: transparent;
+    color: #6ABE66;
+    border: solid 3px #6ABE66;
+}
+
+.complete-transfer {
+    width: 350px;
+}
+
+.red-tractor-wrap {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: flex-end;
+}
+
+.red-tractor-wrap img {
+    width: 250px;
+    margin-right: 30px;
+}
+
+.bitcoin-Check-inner .right p {
+    display: inline;
+}
+
+@media only screen and (max-width: 950px) {
+    .bitcoin-Check-inner .right h5 {
+        font-size: 18px;
+    }
+
+    .bitcoin-Check-sub-title {
+        font-size: 20px;
+    }
+
+    .bitcoin-Check-inner .left {
+        padding-right: 80px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .bitcoin-Check-inner .left {
+        padding-right: 10px;
+        width: 40% !important;
+    }
+
+
+
+    .bitcoin-Check-inner .right {
+        width: 60% !important;
+    }
+
+    .bitcoin-Check .red-tractor-wrap img {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .bitcoin-Check-inner .need-help-wrap {
+        width: 170px;
+    }
+
+    .bitcoin-Check-inner .left h4 {
+        font-size: 20px;
+    }
+
+    .bitcoin-Check-inner .left p {
+        font-size: 14px;
+    }
+
+    .bitcoin-Check-inner .right p {
+        font-size: 18px;
+    }
+
+    .bitcoin-Check-inner .left img {
+        height: 200px;
+        width: 100px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .bitcoin-Check-inner .need-help-wrap {
+        width: 150px;
+    }
+
+    .bitcoin-Check-inner .left p {
+        font-size: 12px;
+    }
+
+    .bitcoin-Check-inner .right button {
+        width: 150px;
+        font-size: 12px;
+    }
+
+    .bitcoin-Check-inner .right h5 {
+        font-size: 15px;
+    }
+
+    .bitcoin-Check-inner .right p {
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .bitcoin-Check-inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bitcoin-Check-inner .left {
+        width: 80% !important;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .bitcoin-Check-inner .right {
+        width: 80% !important;
+    }
+
+    .bitcoin-Check-inner .left img {
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    .bitcoin-Check {
+        height: auto;
+    }
+
+    .red-tractor-wrap {
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .bitcoin-Check-inner .right {
+        position: absolute;
+        top: 250px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .bitcoin-Check-inner {
+        position: relative;
+    }
+
+    .bitcoin-Check-inner .need-help-wrap {
+        margin-top: 350px;
+    }
+
+    .bitcoin-Check-inner .right button {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .bitcoin-Check-inner-image-wrap {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .bitcoin-Check-inner .need-help-wrap {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .bitcoin-Check-inner .right p {
+        font-size: 15px;
+    }
+
+    .bitcoin-Check-inner .right {
+        width: 90% !important;
+    }
+
+    .bitcoin-Check-inner .left {
+        width: 90% !important;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .bitcoin-Check-inner .right p {
+        font-size: 13px;
+    }
+
+    .bitcoin-Check-inner .right h5 {
+        font-size: 13px;
+    }
+
+    .bitcoin-Check-inner .need-help-wrap {
+        width: 150px;
+    }
+}

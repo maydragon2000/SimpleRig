@@ -1,0 +1,279 @@
+.Check {
+    height: 100vh;
+    min-height: 700px;
+    background-image: url(/public/image/check-bottom.png);
+    background-size: 100% 100%;
+    padding-top: 50px;
+    position: relative;
+}
+
+.Check h1 {
+    color: #449552;
+    text-align: center;
+    font-weight: 700;
+    -webkit-text-stroke: 1.5px;
+    letter-spacing: 2px;
+}
+
+.Check-inner {
+    margin-top: 40px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+
+}
+
+.Check-inner .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 100px;
+}
+
+.Check-inner .left img {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.Check-inner .need-help-wrap {
+    width: 230px;
+    background: #d2eab5;
+    border-radius: 5px;
+    padding: 10px 20px 0px 10px;
+}
+
+.Check-inner .left h4 {
+    font-weight: 700;
+    color: #449552;
+}
+
+.Check-inner .left h4 svg {
+    margin-right: 5px;
+}
+
+.Check-inner .left p {
+    margin-left: 20px;
+    color: #7F7F7F;
+    font-weight: 700;
+    -webkit-text-stroke: 0.4px;
+}
+
+.Check-inner .right h5 {
+    margin-bottom: 0px;
+    font-weight: 700;
+    -webkit-text-stroke: 0.5px;
+}
+
+.Check-inner .right p {
+    margin-bottom: 0px;
+    color: #7F7F7F;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.check-sub-title {
+    color: #449552;
+}
+
+.Check-inner .right p svg {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.Check-inner .right button {
+    width: 200px;
+    height: 50px;
+    background: #6ABE66;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    margin-top: 50px;
+    transition: .5s;
+}
+
+.Check-inner .right button:hover {
+    background: transparent;
+    color: #6ABE66;
+    border: solid 3px #6ABE66;
+}
+
+.red-tractor-wrap {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    height: 100%;
+    align-items: flex-end;
+}
+
+.red-tractor-wrap img {
+    width: 250px;
+    margin-right: 30px;
+}
+
+@media only screen and (max-width: 950px) {
+    .Check-inner .right h5 {
+        font-size: 18px;
+    }
+
+    .check-sub-title {
+        font-size: 20px;
+    }
+
+    .Check-inner .left {
+        padding-right: 80px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .Check-inner .left {
+        padding-right: 10px;
+        width: 40% !important;
+    }
+
+    .Check-inner .left img {
+        width: 200px;
+        margin-bottom: 50px;
+    }
+
+    .Check-inner .right {
+        width: 60% !important;
+    }
+
+    .Check .red-tractor-wrap img {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .Check-inner .need-help-wrap {
+        width: 170px;
+    }
+
+    .Check-inner .left h4 {
+        font-size: 20px;
+    }
+
+    .Check-inner .left p {
+        font-size: 14px;
+    }
+
+    .Check-inner .right p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Check-inner .left img {
+        width: 150px;
+    }
+
+    .Check-inner .need-help-wrap {
+        width: 150px;
+    }
+
+    .Check-inner .left p {
+        font-size: 12px;
+    }
+
+    .Check-inner .right button {
+        width: 150px;
+        font-size: 12px;
+    }
+
+    .Check-inner .right h5 {
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .Check-inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Check-inner .left {
+        width: 80% !important;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .Check-inner .right {
+        width: 80% !important;
+    }
+
+    .Check-inner .left img {
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    .Check {
+        height: auto;
+    }
+
+    .red-tractor-wrap {
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .Check-inner .right {
+        position: absolute;
+        top: 200px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .Check-inner {
+        position: relative;
+    }
+
+    .Check-inner .need-help-wrap {
+        margin-top: 350px;
+    }
+
+    .Check-inner .right button {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .Check-inner-image-wrap {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Check-inner .need-help-wrap {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .Check-inner .right p {
+        font-size: 15px;
+    }
+
+    .Check-inner .right {
+        width: 90% !important;
+    }
+
+    .Check-inner .left {
+        width: 90% !important;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .Check-inner .right p {
+        font-size: 13px;
+    }
+
+    .Check-inner .right h5 {
+        font-size: 13px;
+    }
+
+    .Check-inner .need-help-wrap {
+        width: 150px;
+    }
+}

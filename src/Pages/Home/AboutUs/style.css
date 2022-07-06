@@ -1,0 +1,264 @@
+.aboutus {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+
+.aboutus-inner {
+    width: 80%;
+}
+
+.aboutus-inner .text {
+    display: flex;
+    color: #303028;
+    font-weight: 700;
+    font-size: 50px;
+    -webkit-text-stroke: 2px;
+}
+
+.aboutus-inner h2 {
+    font-size: 40px;
+    font-weight: 800;
+    -webkit-text-stroke: 1px;
+}
+
+.aboutus-inner .text .text-stroke {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1.5px;
+    font-weight: 100;
+}
+
+.aboutus-inner .left {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutus-inner .img-wrap {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: -webkit-fill-available;
+}
+
+.tractor-drag {
+    width: 450px;
+    margin-bottom: -100px;
+    margin-right: -100px;
+}
+
+.tractor-drag-mobile {
+    display: none;
+}
+
+.aboutus .right-inner {
+    width: 100%;
+    background-color: #efe9df;
+    border-radius: 30px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+
+.carousel-caption {
+    position: relative !important;
+}
+
+.aboutus .right-inner h2 {
+    text-align: start;
+    color: #449552;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.aboutus .right-inner ul {
+    color: #449552;
+    list-style-image: url("/public/image/check.png");
+}
+
+.aboutus .right-inner ul li::marker {
+    font-size: 20px;
+}
+
+.aboutus .right-inner p {
+    text-align: start;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-family: montserrat;
+}
+
+.carousel-control-prev {
+    display: none !important;
+}
+
+.carousel-control-next {
+    display: none !important;
+}
+
+.carousel-caption {
+    right: 0px !important;
+    left: 0px !important;
+}
+
+.carousel-indicators {
+    right: 50px !important;
+}
+
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    border: solid #449552 !important;
+    background-color: #449552 !important;
+    border-radius: 20px !important;
+    margin-left: 20px !important;
+}
+
+@media only screen and (max-width: 1190px) {
+    .aboutus .right-inner {
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+
+    .aboutus .right-inner p {
+
+        font-size: 15px;
+    }
+
+    .aboutus-inner h2 {
+        font-size: 20px;
+    }
+
+    .aboutus .right-inner h2 {
+
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .aboutus .right-inner p {
+        font-size: 12px;
+    }
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .aboutus-inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutus-inner .left {
+        display: none;
+    }
+
+    .aboutus-inner .left,
+    .aboutus-inner .right {
+        width: 100%;
+    }
+
+    .text-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tractor-drag-mobile {
+        display: block;
+        width: 300px;
+        margin-bottom: -80px;
+    }
+
+    .tractor-drag-mobile-wrap {
+        width: 115%;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+    }
+
+    .aboutus-inner .text {
+        font-size: 60px;
+    }
+
+    .aboutus-inner h2 {
+        font-size: 30px;
+    }
+
+    .aboutus .right-inner p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .aboutus-inner h2 {
+        font-size: 25px;
+    }
+
+    .aboutus .right-inner p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    .aboutus-inner h2 {
+        font-size: 25px;
+    }
+
+    .aboutus .right-inner p {
+        font-size: 15px;
+    }
+
+    .aboutus-inner {
+        width: 90%;
+    }
+
+    .aboutus-inner .text {
+        font-size: 40px;
+    }
+
+    .aboutus-inner h2 {
+        font-size: 15px;
+    }
+
+    .aboutus .right-inner h2 {
+
+        font-size: 20px;
+    }
+
+    .aboutus .right-inner {
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+
+    .tractor-drag-mobile {
+        width: 200px;
+        margin-bottom: -60px;
+    }
+
+    .tractor-drag-mobile-wrap {
+        width: 109%;
+    }
+
+}
+
+@media only screen and (max-width: 250px) {
+    .aboutus-inner .text {
+        font-size: 30px;
+    }
+
+    .aboutus .right-inner ul {
+        padding-left: 20px;
+        color: #449552;
+    }
+
+    .aboutus .right-inner p {
+        font-size: 13px;
+    }
+}

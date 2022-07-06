@@ -1,0 +1,134 @@
+.tgswitch {
+    color: red;
+    width: 50;
+    height: 50;
+    padding: 15px;
+}
+
+
+.topnav {
+    background-color: rgb(230, 52, 52);
+    height: 100;
+    padding: 13px;
+    margin-top: -10px;
+    padding-right: 0;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align: center;
+    font-style: Georgia;
+    font-size: 20px;
+}
+
+.sidenav---sidenav---_2tBP {
+    width: 0px;
+    min-width: 0px;
+    margin: 40px 0px 0px 40px;
+    background-color: #E8F4EF;
+    border-radius: 10px;
+    background-image: url(/public/image/nav-background.png);
+    background-size: 100% 100%;
+}
+
+
+.side-nav {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-item {
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.nav-item:hover {
+    height: 50px;
+    border: solid 3px #8BD66C;
+}
+
+.nav-item:hover a {
+    height: 44px;
+}
+
+.sidenav---selected---1EK3y {
+    background: #8BD66C;
+}
+
+.side-nav a svg {
+    width: 20px;
+    height: 20px;
+}
+
+.side-nav a {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #595A5B;
+}
+
+.sidenav---selected---1EK3y a {
+    color: white;
+}
+
+.side-nav a:hover {
+    color: #595A5B;
+}
+
+.sidenav---selected---1EK3y a:hover {
+    color: white;
+}
+
+.sidenav---navitem---9uL5T::after {
+    opacity: 0 !important;
+}
+
+.sideNav-toggle {
+    transition: .2s;
+}
+
+.sidenav---expanded---1KdUL .sideNav-toggle {
+    margin-left: 150px;
+}
+
+.sidenav---collapsed---LQDEv .sideNav-toggle {
+    margin-left: 20px;
+}
+
+.sidenav---expanded---1KdUL .sideNav-toggle span,
+.sidenav---collapsed---LQDEv .sideNav-toggle span {
+    background-color: #8BD66C;
+    width: 30px;
+    height: 5px;
+}
+
+.sidenav---expanded---1KdUL .sideNav-toggle span {
+    height: 2px;
+}
+
+.sidenav---sidenav---_2tBP.sidenav---expanded---1KdUL {
+    min-width: 220px;
+}
+
+.sidenav---collapsed---LQDEv a {
+    margin-left: -300px;
+}
+
+.sidenav---sidenav---_2tBP {
+    height: 100%;
+}
+
+@media only screen and (max-width: 620px) {
+
+    .sideNav-toggle {
+        display: block;
+    }
+
+    .side-nav {
+        margin-top: 10px;
+    }
+}
